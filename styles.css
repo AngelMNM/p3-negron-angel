@@ -17,3 +17,54 @@ section,
 summary {
     display: block;
 }
+
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+#container1,
+#container2,
+#container3,
+#container4 {
+    position: absolute;
+    width: 12em;
+    height: 12em;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#container1 p,
+#container2 p,
+#container3 p,
+#container4 p {
+    position: relative;
+    top: 35%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    ;
+}
+
+#container1 {
+    background-color: red;
+    left: 10%;
+    top: 5%;
+}
+
+#container2 {
+    background-color: green;
+    left: 75%;
+    top: 5%;
+}
+
+#container3 {
+    background-color: blue;
+    left: 10%;
+    top: 75%;
+}
+
+#container4 {
+    background-color: yellow;
+    right: 10%;
+    top: 75%;
+}
