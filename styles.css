@@ -19,7 +19,7 @@ summary {
 }
 
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 #container1,
@@ -44,6 +44,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 2em;
+    text-shadow: 10px 10px 10px black;
     ;
 }
 
