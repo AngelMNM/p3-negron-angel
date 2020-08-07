@@ -82,12 +82,13 @@ body {
 
 #finalFortune {
     width: 40%;
-    height: 40%;
+    /* height: 40%; */
     background-color: indianred;
     position: absolute;
     left: 30%;
     top: 30%;
     border-radius: 20px;
+    box-shadow: 5px 74px 53px darkred;
     display: none;
 }
 
